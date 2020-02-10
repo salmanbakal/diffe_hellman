@@ -1,18 +1,4 @@
 def banner(message: str):
-  """
-  Convert a message string into a banner. 
-  Example:
-    message = "It's a wonderful worlds!"
-    becomes
-    *************
-    * It's      *
-    * a         *
-    * wonderful * 
-    * world!    *
-    *************
-                                                      
-  """
-
   out=[]
   names=message.split()
   longest = max(names, key=len)
